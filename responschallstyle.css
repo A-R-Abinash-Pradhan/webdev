@@ -1,0 +1,35 @@
+.title{
+    color: red;
+    text-align: center;
+}
+
+@media all and (min-width:800px){
+    #box1,#box2,#box3,#box4{
+        text-align: center;
+        width: 25%;
+        float: left;
+        background-color: burlywood;
+        
+    }
+
+}
+@media all and (min-width:400px) and (max-width:799px){
+    #box1,#box2,#box3,#box4{
+        text-align: center;
+        width: 50%;
+        float: left;
+        background-color: rgb(135, 189, 214);
+        
+    }
+
+}
+@media all and (max-width:399px){
+    #box1,#box2,#box3,#box4{
+        text-align: center;
+        width: 100%;
+        float: left;
+        background-color: rgb(231, 194, 226);
+        
+    }
+
+}
